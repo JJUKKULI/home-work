@@ -46,6 +46,13 @@ body {
   width: 100%;
 }
 
+.checkbox-group {
+  display: flex;
+  justify-content: space-between; /* 좌우 정렬 */
+  align-items: center; /* 수직 중앙 정렬 */
+  width: 500px;
+}
+
 label {
   margin-bottom: 0.5rem;
 }
@@ -119,4 +126,8 @@ a {
 
 .custom-checkbox:checked {
   background: url("./checked.svg") no-repeat center/contain;
+}
+
+.ip-security-link {
+  width: 50%;
 }

@@ -45,7 +45,7 @@
           <label for="password">비밀번호</label>
           <input type="password" id="password" name="password" required />
         </div>
-        <div class="form-group">
+        <div class="form-group checkbox-group">
           <label for="keep-logged-in" class="checkbox-label">
             <input
               type="checkbox"
@@ -55,11 +55,13 @@
             />
             로그인 상태 유지
           </label>
-        <div>
-        <div class="form-group">
-          <a href="./pages/ip_security.html" target="_blank"
-            >IP 보안 <span class="off">OFF</span></a
+          <a
+            href="./pages/ip_security.html"
+            target="_blank"
+            class="ip-security-link"
           >
+            IP 보안 <span class="off">OFF</span>
+          </a>
         </div>
         <button type="submit">로그인</button>
       </form>
